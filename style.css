@@ -23,14 +23,14 @@ body {
 
 .card:hover {
     transform: scale(1.1);
-    transition: .5s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
 .title {
     border-bottom: 2px solid #292c3c;
 }
 
-#answer {
+#display {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,6 @@ button {
     height: 75px;
     font-size: 1.2rem;
     border-radius: 50px;
-    border: none;
     background-color: #292c3c;
     color: #f2d5cf;
 }
